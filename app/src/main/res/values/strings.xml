@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">udemy 13 aplicativos</string>
+    <string name="txt_titulo">Aplicativo curso android</string>
+    <string name="txt_hint_edit_primeiro_nome">primeiro nome</string>
+    <string name="txt_hint_edit_sobrenome">sobrenome</string>
+    <string name="txt_hint_edit_nome_do_curso">Nome do curso desejado</string>
+    <string name="txt_hint_edit_telefone_contato">telefone de contato</string>
+    <string name="txt_button_limpa">limpa</string>
+    <string name="txt_button_salva">salva</string>
+    <string name="txt_button_finalizar">finalizar</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginstart="188dp"
+        android:layout_marginTop="44dp"
+        android:text="salva"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        tools:layout_editor_absoluteX="307dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:background="color/vermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_titulo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <EditText
+        android:id="@+id/editsobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:inputType="textPersonName"
+        app:layout_marginBaseline="16dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_sobrenome"
+        android:inputType="textPersonName"
+        app:layout_marginBaseline="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_nome_do_curso"
+        android:inputType="textPersonName"
+        app:layout_marginBaseline="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_telefone_contato"
+        android:inputType="textPersonName"
+        app:layout_marginBaseline="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnlimpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/txt_button_limpa"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp" />
+
+    <Button
+        android:id="@+id/btnfinalizar"
+        android:layout_width="348dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:drawableTint="@color/teal_200"
+        android:text="@string/txt_button_finalizar"
+        app:strokeColor="@color/teal_200"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
