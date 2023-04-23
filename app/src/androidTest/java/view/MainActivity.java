@@ -1,8 +1,10 @@
-package devandroide.fabio.udemy13aplicativos;
+package view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroide.fabio.udemy13aplicativos.R;
 
 public class MainActivity extends AppCompatActivity {
 
